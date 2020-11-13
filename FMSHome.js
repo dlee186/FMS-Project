@@ -1,3 +1,6 @@
+//    if (mouseButton == RIGHT) {
+//      MENU = 0
+//See if above can be used to return to base menu on right click
 let MENU = 0
 
 function setup() {
@@ -20,12 +23,15 @@ function draw() {
   text('TRACING', 100, 400);
 }
   
+//Should point to Matching Game
   if (MENU == 1) {
 }
 
+//Should point to Clicking Game
   if (MENU == 2) {
 }
   
+//Should point to Tracing Game
   if (MENU == 3) {
 
 }
